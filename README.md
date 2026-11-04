@@ -61,3 +61,9 @@ Android 8.0+ · 한국 시간(KST) · 한국어 / English
 ---
 
 이 저장소는 매치그리드의 설치 및 업데이트 파일을 제공합니다. 경기 일정은 공개 데이터 출처의 편성에 따라 달라질 수 있습니다.
+
+### 일정 출처 및 권리 안내
+
+<sub>프리미어리그·UEFA 챔피언스리그·NBA: <a href="https://www.espn.com/">ESPN</a> · F1: <a href="https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md">Jolpica-F1</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, 한국 시간으로 변환하여 표시) · LoL: <a href="https://www.tompka.io/lol-events/">LoL Events</a> · 발로란트: <a href="https://valorant-calendar.mizt.ch/">Valorant Match Schedule</a></sub>
+
+<sub>매치그리드는 경기 일정을 편하게 확인하기 위해 독립적으로 제작한 무료·비상업적 팬 프로젝트입니다. 리그, 구단, 게임 및 데이터 제공사와 별개로 운영됩니다. 명칭, 로고 및 상표에 대한 권리는 각 권리자에게 있으며, 일정 데이터에는 각 출처의 이용 조건이 적용됩니다. 출처나 권리 관련 문의는 <a href="https://github.com/Potato030/MatchGrid/issues">GitHub Issues</a>에 남겨 주세요.</sub>
