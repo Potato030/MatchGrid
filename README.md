@@ -6,7 +6,7 @@
 
 Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.4.6 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-13.apk)
+### [매치그리드 1.4.7 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-14.apk)
 
 </div>
 
@@ -37,24 +37,22 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.4.6
+### 최신 버전 · v1.4.7
 
 **APK SHA-256**
 
-`eba46d304002702bf128529fa05028b3d881ae949c098fac91412cfe48ddd105`
+`386ec888b6343920d1b76b050b00b365c16e7377823b45acce90776f464006f1`
 
 **변경 내역**
 
-- 요일 아래 구분선이 날짜 칸을 가리는 문제를 수정했습니다. 월간 달력을 위에 고정하고 경기 목록만 스크롤합니다.
-- 설정의 업데이트 주소 항목을 제거하고 업데이트 확인에서 지정된 배포 주소를 사용합니다.
-- 일정은 지정된 공개 출처에서 자동 동기화합니다. 수동으로 갱신하려면 **설정 → 일정 동기화**를 누르세요.
-- **설정 → 업데이트 확인**에서 새 버전을 받을 수 있습니다. 앱은 다운로드한 파일의 크기, SHA-256, 패키지 ID, 버전 코드, 서명을 확인한 뒤 설치를 안내합니다.
+- 월간 달력에서 회색으로 표시되는 이전 달이나 다음 달의 날짜를 누르면 해당 월로 이동하고 그 날짜의 일정을 표시합니다.
 
 <details>
 <summary>이전 버전 변경 내역 보기</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [**1.4.6**](https://potato030.github.io/MatchGrid/archive/MatchGrid-13.apk) | 요일 아래 구분선이 날짜 칸을 가리는 문제 수정 |
 | [**1.4.5**](https://potato030.github.io/MatchGrid/archive/MatchGrid-12.apk) | 업데이트 주소 설정 제거 및 달력과 일정 목록 분리 |
 | [**1.4.4**](https://potato030.github.io/MatchGrid/archive/MatchGrid-11.apk) | 설치 화면의 앱 이름에 버전 표시 |
 | [**1.4.3**](https://potato030.github.io/MatchGrid/archive/MatchGrid-10.apk) | 기기 시간대 기본 적용 및 앱·위젯 시간대 선택 추가 |
