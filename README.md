@@ -4,9 +4,9 @@
 
 **팔로우하는 팀과 리그의 경기만, 내 캘린더에.**
 
-Android 8.0+ · 한국 시간(KST) · 한국어 / English
+Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.4.2 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-9.apk)
+### [매치그리드 1.4.3 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-10.apk)
 
 </div>
 
@@ -37,10 +37,11 @@ Android 8.0+ · 한국 시간(KST) · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.4.2
+### 최신 버전 · v1.4.3
 
-[**Android APK 다운로드**](https://potato030.github.io/MatchGrid/MatchGrid-9.apk)
+[**Android APK 다운로드**](https://potato030.github.io/MatchGrid/MatchGrid-10.apk)
 
+- 기본 시간대는 기기 설정을 따릅니다. **설정 → 시간대**에서 다른 지역을 선택하면 앱과 위젯에 함께 적용됩니다.
 - 일정은 지정된 공개 출처에서 자동 동기화합니다. 수동으로 갱신하려면 **설정 → 일정 동기화**를 누르세요.
 - **설정 → 업데이트 확인**에서 새 버전을 받을 수 있습니다. 앱은 다운로드한 파일의 크기, SHA-256, 패키지 ID, 버전 코드, 서명을 확인한 뒤 설치를 안내합니다.
 
@@ -49,6 +50,7 @@ Android 8.0+ · 한국 시간(KST) · 한국어 / English
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| **1.4.2** | 공개 일정 출처 고정, 수동 동기화 및 업데이트 검증 보강 |
 | **1.4** | 앱 내 업데이트 확인, APK 해시·서명 검증 추가 |
 | **1.3.2** | 날짜를 누르면 달력 격자를 유지하고 선택 표시와 일정 목록만 갱신 |
 | **1.3.1** | 월 경계 날짜를 눌러도 보고 있던 월을 유지 |
@@ -64,6 +66,6 @@ Android 8.0+ · 한국 시간(KST) · 한국어 / English
 
 ### 일정 출처 및 권리 안내
 
-<sub>프리미어리그·UEFA 챔피언스리그·NBA: <a href="https://www.espn.com/">ESPN</a> · F1: <a href="https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md">Jolpica-F1</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, 한국 시간으로 변환하여 표시) · LoL: <a href="https://www.tompka.io/lol-events/">LoL Events</a> · 발로란트: <a href="https://valorant-calendar.mizt.ch/">Valorant Match Schedule</a></sub>
+<sub>프리미어리그·UEFA 챔피언스리그·NBA: <a href="https://www.espn.com/">ESPN</a> · F1: <a href="https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md">Jolpica-F1</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, 설정한 시간대로 변환하여 표시) · LoL: <a href="https://www.tompka.io/lol-events/">LoL Events</a> · 발로란트: <a href="https://valorant-calendar.mizt.ch/">Valorant Match Schedule</a></sub>
 
 <sub>매치그리드는 경기 일정을 편하게 확인하기 위해 독립적으로 제작한 무료·비상업적 팬 프로젝트입니다. 리그, 구단, 게임 및 데이터 제공사와 별개로 운영됩니다. 명칭, 로고 및 상표에 대한 권리는 각 권리자에게 있으며, 일정 데이터에는 각 출처의 이용 조건이 적용됩니다. 출처나 권리 관련 문의는 <a href="https://github.com/Potato030/MatchGrid/issues">GitHub Issues</a>에 남겨 주세요.</sub>
