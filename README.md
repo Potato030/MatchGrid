@@ -6,7 +6,7 @@
 
 Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.4.10 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-17.apk)
+### [매치그리드 1.4.11 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-18.apk)
 
 </div>
 
@@ -37,23 +37,23 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.4.10
+### 최신 버전 · v1.4.11
 
 **APK SHA-256**
 
-`d5830dd880c98cdbeb19bf0bcc9368d09d6a4a6d4267f00396e5d90fdeb5b5ba`
+`7ace67837b9d29d3407ac70ece40416c07b052e56042e1f1ce76f3337a2437f3`
 
 **변경 내역**
 
-- 상단 달력과 하단 상세 일정의 짧은 좌우 스와이프 인식 시간을 0.18초에서 0.5초로 늘렸습니다. 조금 더 천천히 쓸어도 월·날짜가 넘어갑니다.
-- 상하 스와이프가 짧아도 달력과 상세 패널을 쉽게 펼치고 접을 수 있도록 인식을 개선했습니다. 0.5초 이내에 짧게 쓸면 해당 방향으로 전환합니다.
-- 길게 끌 때는 기존처럼 손가락을 따라 움직이고, 놓은 위치를 기준으로 펼침·접힘을 결정합니다.
+- 패널을 위아래로 펼치고 접는 동작에만 여유 있는 0.5초 스와이프 인식을 적용합니다. 짧게 쓸어도 해당 방향으로 펼치거나 접습니다.
+- 좌우 월·날짜 넘기기는 기존 0.18초 기준으로 복원했습니다. 길게 누르고 끌 때 손가락을 따라 움직이는 동작도 유지합니다.
 
 <details>
 <summary>이전 버전 변경 내역 보기</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [**1.4.10**](https://potato030.github.io/MatchGrid/archive/MatchGrid-17.apk) | 짧은 상하·좌우 스와이프 인식 시간 확대 |
 | [**1.4.9**](https://potato030.github.io/MatchGrid/archive/MatchGrid-16.apk) | 회색 날짜 슬라이드, 달력 전환 끊김 개선, 빠른 좌우 스와이프, 다음 관심 경기 카드 및 시간대 접미사 제거 |
 | [**1.4.8**](https://potato030.github.io/MatchGrid/archive/MatchGrid-15.apk) | 달력 펼치기·접기, 월·날짜 드래그 전환, NBA 위젯 3글자 약어 |
 | [**1.4.7**](https://potato030.github.io/MatchGrid/archive/MatchGrid-14.apk) | 회색으로 표시되는 이전·다음 달 날짜를 누르면 해당 월로 이동 |
