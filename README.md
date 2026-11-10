@@ -6,7 +6,7 @@
 
 Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.4.15 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-22.apk)
+### [매치그리드 1.4.16 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-23.apk)
 
 </div>
 
@@ -43,23 +43,26 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.4.15
+### 최신 버전 · v1.4.16
 
 **APK SHA-256**
 
-`bdbe46242139656eaf8146abca5d40b8b638e8994daf83c61d67a8b16688f0c4`
+`80b2ed37cc99abf945853b4757f4fbb6754860825e9b4373f65c864dbaaff63e`
 
 **변경 내역**
 
-- 언어, 시간대, 일정 동기화, 업데이트 확인을 ‘일반 설정’ 하위 메뉴로 모았습니다.
-- 시간대 자동 설정 스위치를 켜면 기기 시간대를 따르고, 끄면 바로 아래에 수동 선택 메뉴가 나타납니다.
-- 마지막 수동 시간대를 기억하며, 기존 시간대 선택은 유지합니다.
+- LoL의 Decider match, 결승·준결승·승자조 등 경기 단계가 팀 이름에 붙어 별도 팀으로 표시되던 문제를 수정했습니다.
+- 기존에 나뉘어 있던 팀과 관심 선택도 실제 팀 하나로 통합합니다. 저장된 일정에도 새 동기화 없이 적용됩니다.
+- LoL 팀 목록을 LCK·LPL·LEC·LCS·LCP·CBLOL, 발로란트를 PAC·AMER·EMEA·CN별로 접고 펼치도록 정리했습니다.
+- 국내 인지도를 고려한 기본 순서, 한글명·정식명·약어 검색, LoL·발로란트 중계 약어 표시를 적용했습니다.
+- LoL·발로란트 공식 팀 로고를 앱에 포함해 오프라인에서도 표시합니다.
 
 <details>
 <summary>이전 버전 변경 내역 보기</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [**1.4.15**](https://potato030.github.io/MatchGrid/archive/MatchGrid-22.apk) | 일반 설정 하위 메뉴, 시간대 자동·수동 전환과 마지막 선택 기억 |
 | [**1.4.14**](https://potato030.github.io/MatchGrid/archive/MatchGrid-21.apk) | 리그·팀 선택 하위 메뉴, LoL 통합, Windows식 시간대 목록 |
 | [**1.4.13**](https://potato030.github.io/MatchGrid/archive/MatchGrid-20.apk) | 알람 상세 메뉴와 경기 시작 전 알림, 동기화 상태, 월 화살표 제거와 종목별 점 표시 |
 | [**1.4.12**](https://potato030.github.io/MatchGrid/archive/MatchGrid-19.apk) | 경기 박스 라운드와 여백, 상세 일정 로고, 설정 아이콘 개선 |
@@ -91,3 +94,7 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 <sub>프리미어리그·UEFA 챔피언스리그·NBA: <a href="https://www.espn.com/">ESPN</a> · F1: <a href="https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md">Jolpica-F1</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, 설정한 시간대로 변환하여 표시) · LoL: <a href="https://www.tompka.io/lol-events/">LoL Events</a> · 발로란트: <a href="https://valorant-calendar.mizt.ch/">Valorant Match Schedule</a></sub>
 
 <sub>매치그리드는 경기 일정을 편하게 확인하기 위해 독립적으로 제작한 무료·비상업적 팬 프로젝트입니다. 리그, 구단, 게임 및 데이터 제공사와 별개로 운영됩니다. 명칭, 로고 및 상표에 대한 권리는 각 권리자에게 있으며, 일정 데이터에는 각 출처의 이용 조건이 적용됩니다. 출처나 권리 관련 문의는 <a href="https://github.com/Potato030/MatchGrid/issues">GitHub Issues</a>에 남겨 주세요.</sub>
+
+<sub>LoL·발로란트 팀 소속과 로고: <a href="https://lolesports.com/en-US/gpr/2026/current">LoL Esports</a> · <a href="https://valorantesports.com/en-US/gpr/2026/current">VALORANT Esports</a> (2026-11-10 확인). 팀 정렬은 국내 인지도를 고려한 기본 배치이며, 공식 인기 순위나 실시간 통계가 아닙니다.</sub>
+
+<sub>일부 Pacific 예선 참가팀의 로고 사본: <a href="https://www.vlr.gg/">VLR.gg</a>. 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.</sub>
