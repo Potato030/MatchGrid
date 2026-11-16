@@ -6,7 +6,7 @@
 
 Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.6.0 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-26.apk)
+### [매치그리드 1.7.0 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-27.apk)
 
 </div>
 
@@ -49,26 +49,26 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.6.0
+### 최신 버전 · v1.7.0
 
 **APK SHA-256**
 
-`34d826d280bda6cc2876713d2dae991ef2e53f65bb150451647f941053b2444b`
+`6c9b7077064bc747afd97f5a24922e9e6f10b342dae7267eee70cabad38de524`
 
 **변경 내역**
 
-- 저장된 일정의 반복 해석을 줄이고, 일정 준비·로고 로딩·위젯 갱신을 화면 조작과 분리했습니다. 동기화 상태만 바뀔 때 달력 전체를 다시 만들지 않습니다.
-- 팀 목록의 화면에 보이는 행을 재사용하고, 검색용 이름을 미리 준비해 팀 검색과 스크롤 부담을 줄였습니다.
-- NBA 팀 선택에 **전체 · 서부 컨퍼런스 · 동부 컨퍼런스** 필터를 추가했습니다. 검색 및 **선택한 팀만**과 함께 사용할 수 있습니다.
-- **맨유 / MUN**, **아스톤 빌라 / AVL**, **골스 / GSW**, **클블 / CLE** 등 검색용 별칭과 약어를 추가했습니다. 영문 대소문자·공백·기호 차이를 무시하며, 표시 이름은 그대로 유지합니다. NBA 30개 팀 약어를 지원하고, 새 동기화에서는 제공처의 팀 약어도 저장합니다.
-- LoL·VAL 권역 접기 화살표를 Flaticon Uicons의 간결한 둥근 선형 아이콘으로 교체했습니다.
-- JD Gaming·JDG Esports·스폰서가 붙은 JDG 이름을 같은 팀으로 통합했습니다. 기존 관심 등록은 유지되며, LoL과 VAL의 JDG는 게임별로 구분합니다. NAVI·BLG·TEC의 다른 표기도 정상 권역과 연결했습니다.
+- VAL의 **기타 팀**에 있던 플레이인 참가 팀을 실제 참가 권역의 맨 아래로 옮겼습니다. AMER: **M80·BST·FX**, EMEA: **JL·FF·SGE·EP**, CN: **KBG·AT**. 기존 관심 등록과 공식 약어·로고를 유지합니다.
+- LoL·VAL 권역 접기 화살표를 기존 크기의 **80%**로 줄였습니다. 누를 수 있는 영역은 유지합니다.
+- **일반 설정 → 점수 표기 ON/OFF**를 추가했습니다. 기본 OFF이며, 켜면 앱의 상세 일정·펼친 달력·홈 위젯에 **확인된 최종 점수**를 표시합니다.
+- **진행 중 경기의 실시간 점수 갱신은 하지 않습니다.** 축구·NBA는 기존 일정 동기화 응답의 최종 점수를 사용하고, VAL은 팔로우한 경기 중 보고 있는 월과 인접 날짜의 결과만 나누어 가져와 저장합니다. 결과를 받지 못한 경기는 기존 대진을 유지합니다.
+- **F1은 기존 일정 표기를 유지합니다. LoL 점수는 이번 버전에서 지원하지 않습니다.** LoL 공개 캘린더에는 결과가 없으며 별도 결과 API 접근을 확인하지 못했습니다. 설정에서도 제공 범위를 확인할 수 있습니다.
 
 <details>
 <summary>이전 버전 변경 내역 보기</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [**1.6.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-26.apk) | 일정·팀 목록 반응성 개선, NBA 동·서부 필터, 별칭·약어 검색, 권역 아이콘과 JDG 중복 정리<br>SHA-256: `34d826d280bda6cc2876713d2dae991ef2e53f65bb150451647f941053b2444b` |
 | [**1.5.1**](https://potato030.github.io/MatchGrid/archive/MatchGrid-25.apk) | 펼친 달력·위젯 경기명을 한 줄로 표시하고 글자·박스 높이를 줄여 +N경기 표시 공간 확보 |
 | [**1.5.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-24.apk) | 빈 일정 안내, 경기 검색, 앱·위젯 테마, 선택한 팀 필터, 날짜 선택 개선, 공식 1부 e스포츠 일정 확대 |
 | [**1.4.16**](https://potato030.github.io/MatchGrid/archive/MatchGrid-23.apk) | LoL 경기 단계와 팀 이름 분리, e스포츠 지역별 접기·펼치기와 중계 약어·공식 팀 로고 |
@@ -107,10 +107,12 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 <sub>LoL·발로란트 팀 소속과 로고: <a href="https://lolesports.com/en-US/gpr/2026/current">LoL Esports</a> · <a href="https://valorantesports.com/en-US/gpr/2026/current">VALORANT Esports</a> (2026-11-10 확인). 팀 정렬은 국내 인지도를 고려한 기본 배치이며, 공식 인기 순위나 실시간 통계가 아닙니다.</sub>
 
-<sub>일부 Pacific 예선 참가팀의 로고 사본: <a href="https://www.vlr.gg/">VLR.gg</a>. 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.</sub>
+<sub>일부 VCT 플레이인 참가팀의 로고 사본: <a href="https://www.vlr.gg/">VLR.gg</a>. 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.</sub>
 
 <sub>권역 접기 아이콘: <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a> · Regular Rounded, angle-small-down. 앱의 일반 설정에도 출처를 표시합니다.</sub>
 
 <sub>팀 검색용 별칭·약어 참고: <a href="https://www.manutd.com/ko/help/club-contacts">맨유 한국어 공식 사이트</a> · <a href="https://kr.mancity.com/news">맨시티 한국어 공식 사이트</a> · <a href="https://fantasy.premierleague.com/fixtures/fdr">프리미어리그 공식 경기 약어</a> · <a href="https://www.nba.com/news/about">NBA 팀·컨퍼런스</a> · <a href="https://www.nba.com/team/1610612744/warriors">NBA 공식 팀 약어</a> · <a href="https://nbazoomin.com/korean-nba-slang/">국내 NBA 약칭 사용례</a>. 별칭은 검색 편의를 위한 수동 목록이며 인기 통계를 뜻하지 않습니다.</sub>
 
-<sub>발로란트의 ‘기타 팀’은 가져온 일정의 참가 팀 중 권역 정보가 아직 연결되지 않은 팀입니다. M80·Joblife·KeepBest Gaming처럼 VCT Stage 2 플레이인에 참가한 팀도 포함될 수 있습니다. <a href="https://valorantesports.com/en-US/news/vct-2026">Riot의 2026 Path to Champions 안내</a>에 따라 Challengers 출신 팀이 공식 VCT에 참가할 수 있지만, 앱은 해당 팀의 하위 리그 전체 일정을 추가하지 않습니다.</sub>
+<sub>VCT 플레이인 참가 팀은 참가 권역에 연결해 각 권역의 하단에 배치합니다. <a href="https://valorantesports.com/en-US/news/vct-2026">Riot의 2026 Path to Champions 안내</a>에 따라 Challengers 출신 팀이 공식 VCT에 참가할 수 있지만, 앱은 해당 팀의 하위 리그 전체 일정을 추가하지 않습니다.</sub>
+
+<sub>최종 점수 출처: 축구·NBA <a href="https://www.espn.com/">ESPN</a> · 발로란트 <a href="https://www.vlr.gg/">VLR.gg</a>. 종료 상태와 경기·팀이 일치하는 결과만 표시하며, LoL 점수는 현재 지원하지 않습니다. F1은 일정 표기를 유지합니다.</sub>
