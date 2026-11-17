@@ -6,7 +6,7 @@
 
 Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
-### [매치그리드 1.8.4 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-33.apk)
+### [매치그리드 1.8.5 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-34.apk)
 
 </div>
 
@@ -49,23 +49,27 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ## 앱 업데이트
 
-### 최신 버전 · v1.8.4
+### 최신 버전 · v1.8.5
 
 **APK SHA-256**
 
-`0a6a1aba6ef3017ede5d52c1af3fb8610964398a5ede0f016abc12a9c523d57b`
+`9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 
 **변경 내역**
 
-- **향후 업데이트를 위한 내부 구조를 정리했습니다.** 달력·상세 일정·검색·설정·위젯과 일정 저장·해석·알림·업데이트 처리의 역할을 나눴습니다.
-- **기존 사용 방식은 그대로 유지합니다.** 화면 배치, 슬라이드, 관심 팀, 한글 이름과 검색 별칭, 동기화·알림 정책을 유지했습니다.
-- **검증을 확대했습니다.** 단위 검사 25개와 Android 에뮬레이터 검사 89개를 통과했습니다. 비교 화면 88장과 팀 이름·검색·분류 데이터 1,201건도 확인했습니다.
+- **달력을 더 부드럽게 넘깁니다.** 월·일정 화면을 재사용하고 패널을 펼치고 접을 때의 불필요한 처리를 줄였습니다.
+- **여러 달을 연속으로 넘기기 편해졌습니다.** 전환 중 다음 스와이프를 한 번까지 이어받고, 반대로 쓸면 대기 중인 이동을 취소합니다. 길게 끌다가 손가락을 멈췄을 때도 화면이 자연스럽게 따라옵니다.
+- **앱 아이콘과 설정 로고를 다듬었습니다.** 기기의 아이콘 모양에 맞춰 모서리가 자연스럽게 표시됩니다.
+- **자동 동기화 기반을 보강했습니다.** WorkManager 2.11.2를 적용했으며, 기존 동기화 주기와 관심 팀·알림 설정은 유지합니다.
+- **설정 화면을 간결하게 정리했습니다.** 점수·알림·팀 선택의 반복 설명과 자동 동기화 안내 줄을 삭제했습니다. 마지막 동기화 시각과 실패 상태는 유지하고, 아이콘 출처는 앱 정보로 옮겼습니다.
+- **실기기와 에뮬레이터에서 확인했습니다.** Galaxy S25 Ultra에서 기존 데이터를 유지한 상태로 동작·반응성을 확인했고, 기본 검사 25개와 Android 검사 95개를 통과했습니다.
 
 <details>
 <summary>이전 버전 변경 내역 보기</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [**1.8.4**](https://potato030.github.io/MatchGrid/archive/MatchGrid-33.apk) | 화면·일정·동기화·알림·업데이트 코드 역할 분리, 기존 동작 유지 및 회귀 검사 확대<br>SHA-256: `0a6a1aba6ef3017ede5d52c1af3fb8610964398a5ede0f016abc12a9c523d57b` |
 | [**1.8.3**](https://potato030.github.io/MatchGrid/archive/MatchGrid-32.apk) | 달력 접근성 보완, Android 버전별 백업·기기 이전 정책 명시, 영어 단수·복수 표기 개선<br>SHA-256: `1a952bc0a1ac095ffb7b9608026c07f8c944297a290f093fe834664b4b45cc2e` |
 | [**1.8.2**](https://potato030.github.io/MatchGrid/archive/MatchGrid-31.apk) | 손상된 저장 행·조건부 캐시 복구, 동기화 출처 연결 통일, 구형 Android 검색 호환성, 위젯·검증 보강<br>SHA-256: `78b7db0d258afa4b98b95d0363d29bdc8f91ea135716487a3f2edb490a045292` |
 | [**1.8.1**](https://potato030.github.io/MatchGrid/archive/MatchGrid-30.apk) | EPL·UCL 팀별 일정 응답의 로고 해석 수정, 빈 로고 덮어쓰기 방지 및 기존 데이터 복구<br>SHA-256: `4dc16782994cff94b30e5148f4f3b71ff029d0d65c3adefcfe4615150fb35657` |
@@ -113,7 +117,7 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 <sub>일부 VCT 플레이인 참가팀의 로고 사본: <a href="https://www.vlr.gg/">VLR.gg</a>. 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.</sub>
 
-<sub>권역 접기 아이콘: <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a> · Regular Rounded, angle-small-down. 앱의 일반 설정에도 출처를 표시합니다.</sub>
+<sub>권역 접기 아이콘: <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a> · Regular Rounded, angle-small-down. 앱의 일반 설정 → 앱 정보에도 출처를 표시합니다.</sub>
 
 <sub>팀 검색용 별칭·약어 참고: <a href="https://www.manutd.com/ko/help/club-contacts">맨유 한국어 공식 사이트</a> · <a href="https://kr.mancity.com/news">맨시티 한국어 공식 사이트</a> · <a href="https://fantasy.premierleague.com/fixtures/fdr">프리미어리그 공식 경기 약어</a> · <a href="https://www.nba.com/news/about">NBA 팀·컨퍼런스</a> · <a href="https://www.nba.com/team/1610612744/warriors">NBA 공식 팀 약어</a> · <a href="https://nbazoomin.com/korean-nba-slang/">국내 NBA 약칭 사용례</a>. 별칭은 검색 편의를 위한 수동 목록이며 인기 통계를 뜻하지 않습니다.</sub>
 
