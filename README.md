@@ -4,7 +4,7 @@
 
 **팔로우하는 팀과 리그의 경기만, 내 캘린더에.**
 
-Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
+Android 8.0+ · 한국어 / English
 
 ### [매치그리드 1.8.5 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-34.apk)
 
@@ -12,18 +12,14 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 
 ---
 
-## 매치그리드로 할 수 있는 일
+## 주요 기능
 
-- **내 경기 캘린더** — 관심 팀이나 리그를 선택하면 해당 경기만 월간 달력에 표시됩니다. 날짜를 누르면 대진과 시작 시간을 확인할 수 있습니다.
-- **홈 화면 위젯** — 앱을 열지 않아도 월간 일정을 보고, 날짜를 눌러 경기 목록으로 이동할 수 있습니다.
-- **간결한 경기명** — 펼친 달력과 위젯에서 경기명을 한 줄로 표시합니다. NBA는 `SAS vs PHX` 같은 약어를 쓰고, 긴 경기명은 끝을 줄여 표시하며, 더 있는 경기는 아래 `+N경기`로 알려드립니다.
-- **팀 찾기** — 한국어 별칭·영문 약어로 팀을 찾습니다. NBA는 동부·서부 컨퍼런스로 좁히고, LoL·VAL은 권역별 목록을 접고 펼칩니다.
-- **경기 검색** — 돋보기에서 팔로우한 저장 일정을 팀명·대회·날짜로 찾고, 결과를 눌러 그날의 상세 일정으로 이동합니다.
-- **밝게 · 어둡게 · 기기 설정 따름** — 설정에서 고른 화면 테마를 앱과 위젯에 함께 적용합니다.
-- **손끝으로 넘기는 달력** — 아래로 끌면 경기명이 표시되는 전체 달력, 위로 끌면 상세 일정이 펼쳐집니다. 달력은 월별로, 상세 일정은 하루씩 좌우로 넘길 수 있습니다.
-- **관심 경기만 동기화** — 선택한 팀·리그에 필요한 일정을 약 6시간마다 갱신합니다. 팀을 추가하면 필요한 일정을 받고, 해제한 팀을 위한 추가 조회는 멈춥니다. 바로 새로고침하려면 **설정 → 일반 설정 → 일정 동기화**를 누르세요.
-- **동기화 상태 확인** — 설정에서 진행·대기·실패 상태와 마지막 전체 성공 시간을 확인하고, 종목별 마지막 성공 시간도 볼 수 있습니다. 실패한 출처의 기존 일정은 유지합니다.
-- **경기 시작 전 알림** — 팔로우한 경기의 시작 10분·30분·60분 전에 알려드립니다. 기본은 꺼짐이며 **설정 → 알람 → 메시지 알림**에서 켤 수 있습니다. 알림을 누르면 해당 날짜의 상세 일정으로 이동합니다.
+- **경기 캘린더** — 팔로우한 팀·리그의 경기만 월간 달력에 표시합니다.
+- **홈 화면 위젯** — 앱을 열지 않고도 월간 일정을 확인합니다.
+- **팀·경기 검색** — 한국어 별칭이나 약어로 팀과 경기를 찾습니다.
+- **자동 동기화** — 약 6시간마다 일정을 갱신합니다.
+- **경기 알림** — 경기 시작 10·30·60분 전에 알려드립니다.
+- **테마·시간대** — 밝게·어둡게·기기 설정 테마, 기기 시간대 또는 직접 선택.
 
 ## 지원 일정
 
@@ -35,92 +31,123 @@ Android 8.0+ · 기기 시간대 또는 직접 선택 · 한국어 / English
 | 🎮 리그 오브 레전드 | LCK · LPL · LEC · LCS · LCP · CBLOL · First Stand · MSI · Worlds |
 | 🎯 발로란트 | VCT Pacific · Americas · EMEA · China · Masters · Champions |
 
-공식 1부 지역 리그와 국제 대회의 공개 일정을 수집합니다. 발로란트의 Challengers·Ascension·승격 예선·비시즌 대회는 제외하고, 여러 캘린더에 겹치는 경기는 하나로 합칩니다. 달력에는 팔로우한 경기만 표시되며, 공개 출처에 아직 올라오지 않은 경기는 표시할 수 없습니다.
+## 시작하기
 
-## 처음 사용하기
+1. 위 APK를 설치합니다.
+2. **설정 → 리그 추가**에서 관심 팀을 선택합니다.
+3. 홈 화면 빈 곳을 길게 눌러 **위젯 → 매치그리드**를 추가합니다.
 
-1. Android 기기에 위 APK를 설치합니다.
-2. 앱의 **설정 → 리그 추가**에서 리그를 누른 뒤, 상단 검색창과 팀별 스위치로 관심 팀을 선택합니다. **선택한 팀만**을 켜면 개별 팔로우 팀을 모아 볼 수 있습니다. F1은 스위치 하나로 선택하고, LoL은 대회 구분 없이 하나로 관리합니다. 선택하기 전에는 빈 달력이 보입니다.
-3. 홈 화면에 위젯을 추가하려면 빈 공간을 길게 누르고 **위젯 → 매치그리드**를 선택합니다.
+경기 알림은 **설정 → 알람 → 메시지 알림**에서 켤 수 있습니다.
 
-경기 알림을 켜면 필요한 시스템 권한을 안내합니다. Android 13 이상에서는 알림 허용, Android 12 이상에서는 ‘알람 및 리마인더’ 허용이 필요합니다. 저장된 일정으로 알림을 예약하며, 일정 동기화와 관심 항목 변경 후 예약을 갱신합니다. 기기를 끄거나 앱을 강제 종료한 동안에는 알림이 오지 않을 수 있습니다.
+## 업데이트
 
-**설정 → 일반 설정**에서 시간대 자동 설정을 끄면 나타나는 **시간대 수동 설정**에서 `(UTC+09:00) 서울` 같은 Windows식 지역 이름을 선택할 수 있습니다. 도시 이름과 UTC 오프셋으로 검색할 수 있고, 실제 경기 시각에는 날짜별 서머타임을 적용합니다.
+### v1.8.5
 
-## 앱 업데이트
+SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 
-### 최신 버전 · v1.8.5
-
-**APK SHA-256**
-
-`9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
-
-**변경 내역**
-
-- **달력을 더 부드럽게 넘깁니다.** 월·일정 화면을 재사용하고 패널을 펼치고 접을 때의 불필요한 처리를 줄였습니다.
-- **여러 달을 연속으로 넘기기 편해졌습니다.** 전환 중 다음 스와이프를 한 번까지 이어받고, 반대로 쓸면 대기 중인 이동을 취소합니다. 길게 끌다가 손가락을 멈췄을 때도 화면이 자연스럽게 따라옵니다.
-- **앱 아이콘과 설정 로고를 다듬었습니다.** 기기의 아이콘 모양에 맞춰 모서리가 자연스럽게 표시됩니다.
-- **자동 동기화 기반을 보강했습니다.** WorkManager 2.11.2를 적용했으며, 기존 동기화 주기와 관심 팀·알림 설정은 유지합니다.
-- **설정 화면을 간결하게 정리했습니다.** 점수·알림·팀 선택의 반복 설명과 자동 동기화 안내 줄을 삭제했습니다. 마지막 동기화 시각과 실패 상태는 유지하고, 아이콘 출처는 앱 정보로 옮겼습니다.
-- **실기기와 에뮬레이터에서 확인했습니다.** Galaxy S25 Ultra에서 기존 데이터를 유지한 상태로 동작·반응성을 확인했고, 기본 검사 25개와 Android 검사 95개를 통과했습니다.
+- 달력 넘김을 더 부드럽게 개선
+- 연속 스와이프로 여러 달을 빠르게 이동
+- 앱 아이콘과 설정 로고 정리
+- 자동 동기화 안정성 보강
+- 설정 화면 설명 문구 간소화
 
 <details>
-<summary>이전 버전 변경 내역 보기</summary>
+<summary>이전 버전</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
-| [**1.8.4**](https://potato030.github.io/MatchGrid/archive/MatchGrid-33.apk) | 화면·일정·동기화·알림·업데이트 코드 역할 분리, 기존 동작 유지 및 회귀 검사 확대<br>SHA-256: `0a6a1aba6ef3017ede5d52c1af3fb8610964398a5ede0f016abc12a9c523d57b` |
-| [**1.8.3**](https://potato030.github.io/MatchGrid/archive/MatchGrid-32.apk) | 달력 접근성 보완, Android 버전별 백업·기기 이전 정책 명시, 영어 단수·복수 표기 개선<br>SHA-256: `1a952bc0a1ac095ffb7b9608026c07f8c944297a290f093fe834664b4b45cc2e` |
-| [**1.8.2**](https://potato030.github.io/MatchGrid/archive/MatchGrid-31.apk) | 손상된 저장 행·조건부 캐시 복구, 동기화 출처 연결 통일, 구형 Android 검색 호환성, 위젯·검증 보강<br>SHA-256: `78b7db0d258afa4b98b95d0363d29bdc8f91ea135716487a3f2edb490a045292` |
-| [**1.8.1**](https://potato030.github.io/MatchGrid/archive/MatchGrid-30.apk) | EPL·UCL 팀별 일정 응답의 로고 해석 수정, 빈 로고 덮어쓰기 방지 및 기존 데이터 복구<br>SHA-256: `4dc16782994cff94b30e5148f4f3b71ff029d0d65c3adefcfe4615150fb35657` |
-| [**1.8.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-29.apk) | 관심 팀별 일정 조회, 권역·국제대회 캘린더 선택, 조건부 요청과 캐시 재사용, 실패한 항목만 재시도. 축구 로고 오류는 1.8.1에서 수정<br>SHA-256: `08dc16666ea1862ed6b83f7379ba84ebd697242fbe84df0c7a9068862e670c73` |
-| [**1.7.1**](https://potato030.github.io/MatchGrid/archive/MatchGrid-28.apk) | VLR 결과 페이지 자동 조회 중단, 점수 제공 범위 안내 보완<br>SHA-256: `e50aec9738d553f914fbe4366f6afe8bf4e8ba4779d61f892a73eed9433b957b` |
-| [**1.7.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-27.apk) | 플레이인 팀 권역 정리, 화살표 80%, 최종 점수 설정. VAL 자동 조회는 1.7.1에서 중단했으므로 최신 버전 권장<br>SHA-256: `6c9b7077064bc747afd97f5a24922e9e6f10b342dae7267eee70cabad38de524` |
-| [**1.6.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-26.apk) | 일정·팀 목록 반응성 개선, NBA 동·서부 필터, 별칭·약어 검색, 권역 아이콘과 JDG 중복 정리<br>SHA-256: `34d826d280bda6cc2876713d2dae991ef2e53f65bb150451647f941053b2444b` |
-| [**1.5.1**](https://potato030.github.io/MatchGrid/archive/MatchGrid-25.apk) | 펼친 달력·위젯 경기명을 한 줄로 표시하고 글자·박스 높이를 줄여 +N경기 표시 공간 확보 |
-| [**1.5.0**](https://potato030.github.io/MatchGrid/archive/MatchGrid-24.apk) | 빈 일정 안내, 경기 검색, 앱·위젯 테마, 선택한 팀 필터, 날짜 선택 개선, 공식 1부 e스포츠 일정 확대 |
-| [**1.4.16**](https://potato030.github.io/MatchGrid/archive/MatchGrid-23.apk) | LoL 경기 단계와 팀 이름 분리, e스포츠 지역별 접기·펼치기와 중계 약어·공식 팀 로고 |
-| [**1.4.15**](https://potato030.github.io/MatchGrid/archive/MatchGrid-22.apk) | 일반 설정 하위 메뉴, 시간대 자동·수동 전환과 마지막 선택 기억 |
-| [**1.4.14**](https://potato030.github.io/MatchGrid/archive/MatchGrid-21.apk) | 리그·팀 선택 하위 메뉴, LoL 통합, Windows식 시간대 목록 |
-| [**1.4.13**](https://potato030.github.io/MatchGrid/archive/MatchGrid-20.apk) | 알람 상세 메뉴와 경기 시작 전 알림, 동기화 상태, 월 화살표 제거와 종목별 점 표시 |
-| [**1.4.12**](https://potato030.github.io/MatchGrid/archive/MatchGrid-19.apk) | 경기 박스 라운드와 여백, 상세 일정 로고, 설정 아이콘 개선 |
-| [**1.4.11**](https://potato030.github.io/MatchGrid/archive/MatchGrid-18.apk) | 상하 패널의 짧은 스와이프 개선 유지, 좌우 넘기기 인식 시간 복원 |
-| [**1.4.10**](https://potato030.github.io/MatchGrid/archive/MatchGrid-17.apk) | 짧은 상하·좌우 스와이프 인식 시간 확대 |
-| [**1.4.9**](https://potato030.github.io/MatchGrid/archive/MatchGrid-16.apk) | 회색 날짜 슬라이드, 달력 전환 끊김 개선, 빠른 좌우 스와이프, 다음 관심 경기 카드 및 시간대 접미사 제거 |
-| [**1.4.8**](https://potato030.github.io/MatchGrid/archive/MatchGrid-15.apk) | 달력 펼치기·접기, 월·날짜 드래그 전환, NBA 위젯 3글자 약어 |
-| [**1.4.7**](https://potato030.github.io/MatchGrid/archive/MatchGrid-14.apk) | 회색으로 표시되는 이전·다음 달 날짜를 누르면 해당 월로 이동 |
-| [**1.4.6**](https://potato030.github.io/MatchGrid/archive/MatchGrid-13.apk) | 요일 아래 구분선이 날짜 칸을 가리는 문제 수정 |
-| [**1.4.5**](https://potato030.github.io/MatchGrid/archive/MatchGrid-12.apk) | 업데이트 주소 설정 제거 및 달력과 일정 목록 분리 |
-| [**1.4.4**](https://potato030.github.io/MatchGrid/archive/MatchGrid-11.apk) | 설치 화면의 앱 이름에 버전 표시 |
-| [**1.4.3**](https://potato030.github.io/MatchGrid/archive/MatchGrid-10.apk) | 기기 시간대 기본 적용 및 앱·위젯 시간대 선택 추가 |
-| [**1.4.2**](https://potato030.github.io/MatchGrid/archive/MatchGrid-9.apk) | 공개 일정 출처 고정, 수동 동기화 및 업데이트 검증 보강 |
-| **1.4** | 앱 내 업데이트 확인, APK 해시·서명 검증 추가 |
-| **1.3.2** | 날짜를 누르면 달력 격자를 유지하고 선택 표시와 일정 목록만 갱신 |
-| **1.3.1** | 월 경계 날짜를 눌러도 보고 있던 월을 유지 |
-| **1.3** | 한국어 대진 표기와 F1 세션 이름 개선 |
-| **1.2** | 매치그리드 이름과 아이콘 적용, 선택한 리그와 팀 일정만 표시 |
-| **1.1** | 키 없는 일정 갱신, 월간 위젯과 한국어·영어 설정 추가 |
+| [1.8.4](https://potato030.github.io/MatchGrid/archive/MatchGrid-33.apk) | 내부 코드 정리 (동작 변화 없음) |
+| [1.8.3](https://potato030.github.io/MatchGrid/archive/MatchGrid-32.apk) | 달력 접근성, 영어 단수·복수 표기 개선 |
+| [1.8.2](https://potato030.github.io/MatchGrid/archive/MatchGrid-31.apk) | 저장 데이터 복구, 구형 Android 검색 호환성 개선 |
+| [1.8.1](https://potato030.github.io/MatchGrid/archive/MatchGrid-30.apk) | 축구 팀 로고 표시 오류 수정 |
+| [1.8.0](https://potato030.github.io/MatchGrid/archive/MatchGrid-29.apk) | 관심 팀 일정만 조회, 실패한 항목만 재시도 |
+| [1.7.1](https://potato030.github.io/MatchGrid/archive/MatchGrid-28.apk) | VAL 결과 자동 조회 중단 |
+| [1.7.0](https://potato030.github.io/MatchGrid/archive/MatchGrid-27.apk) | 최종 점수 표시, 플레이인 팀 권역 정리 |
+| [1.6.0](https://potato030.github.io/MatchGrid/archive/MatchGrid-26.apk) | NBA 동·서부 필터, 별칭·약어 검색 |
+| [1.5.1](https://potato030.github.io/MatchGrid/archive/MatchGrid-25.apk) | 달력·위젯 경기명 한 줄 표시 |
+| [1.5.0](https://potato030.github.io/MatchGrid/archive/MatchGrid-24.apk) | 경기 검색, 테마, 선택한 팀 필터 |
+| [1.4.16](https://potato030.github.io/MatchGrid/archive/MatchGrid-23.apk) | e스포츠 권역별 접기, 공식 팀 로고 |
+| [1.4.15](https://potato030.github.io/MatchGrid/archive/MatchGrid-22.apk) | 시간대 자동·수동 전환 |
+| [1.4.14](https://potato030.github.io/MatchGrid/archive/MatchGrid-21.apk) | 리그·팀 선택 메뉴, 시간대 목록 |
+| [1.4.13](https://potato030.github.io/MatchGrid/archive/MatchGrid-20.apk) | 경기 시작 전 알림, 동기화 상태 표시 |
+| [1.4.12](https://potato030.github.io/MatchGrid/archive/MatchGrid-19.apk) | 경기 박스·로고·아이콘 디자인 개선 |
+| [1.4.11](https://potato030.github.io/MatchGrid/archive/MatchGrid-18.apk) | 스와이프 인식 조정 |
+| [1.4.10](https://potato030.github.io/MatchGrid/archive/MatchGrid-17.apk) | 짧은 스와이프 인식 개선 |
+| [1.4.9](https://potato030.github.io/MatchGrid/archive/MatchGrid-16.apk) | 달력 전환 끊김 개선 |
+| [1.4.8](https://potato030.github.io/MatchGrid/archive/MatchGrid-15.apk) | 달력 펼치기·접기, NBA 3글자 약어 |
+| [1.4.7](https://potato030.github.io/MatchGrid/archive/MatchGrid-14.apk) | 이전·다음 달 날짜를 눌러 이동 |
+| [1.4.6](https://potato030.github.io/MatchGrid/archive/MatchGrid-13.apk) | 요일 구분선 표시 오류 수정 |
+| [1.4.5](https://potato030.github.io/MatchGrid/archive/MatchGrid-12.apk) | 달력과 일정 목록 분리 |
+| [1.4.4](https://potato030.github.io/MatchGrid/archive/MatchGrid-11.apk) | 설치 화면에 버전 표시 |
+| [1.4.3](https://potato030.github.io/MatchGrid/archive/MatchGrid-10.apk) | 앱·위젯 시간대 선택 |
+| [1.4.2](https://potato030.github.io/MatchGrid/archive/MatchGrid-9.apk) | 일정 출처 고정, 수동 동기화 |
+| 1.4 | 앱 내 업데이트 확인 |
+| 1.3.2 | 날짜 선택 시 달력 유지 |
+| 1.3.1 | 월 경계 날짜 선택 개선 |
+| 1.3 | 한국어 대진 표기, F1 세션 이름 개선 |
+| 1.2 | 매치그리드 이름·아이콘, 선택한 리그·팀만 표시 |
+| 1.1 | 월간 위젯, 한국어·영어 설정 |
 
 </details>
 
 ---
 
-이 저장소는 매치그리드의 설치 및 업데이트 파일을 제공합니다. 경기 일정은 공개 데이터 출처의 편성에 따라 달라질 수 있습니다.
+## 일정 출처 및 권리
 
-### 일정 출처 및 권리 안내
+<details>
+<summary>⚽ 프리미어리그</summary>
 
-<sub>프리미어리그·UEFA 챔피언스리그·NBA: <a href="https://www.espn.com/">ESPN</a> · F1: <a href="https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md">Jolpica-F1</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, 설정한 시간대로 변환하여 표시) · LoL: <a href="https://www.tompka.io/lol-events/">LoL Events</a> · 발로란트: <a href="https://valorant-calendar.mizt.ch/">Valorant Match Schedule</a></sub>
+- 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+- 팀 검색용 별칭·약어 참고: [맨유 한국어 공식 사이트](https://www.manutd.com/ko/help/club-contacts) · [맨시티 한국어 공식 사이트](https://kr.mancity.com/news) · [프리미어리그 공식 경기 약어](https://fantasy.premierleague.com/fixtures/fdr)
+
+</details>
+
+<details>
+<summary>⚽ UEFA 챔피언스리그</summary>
+
+- 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+
+</details>
+
+<details>
+<summary>🏀 NBA</summary>
+
+- 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+- 팀·컨퍼런스·약어: [NBA 팀·컨퍼런스](https://www.nba.com/news/about) · [NBA 공식 팀 약어](https://www.nba.com/team/1610612744/warriors)
+- 팀 검색용 별칭 참고: [국내 NBA 약칭 사용례](https://nbazoomin.com/korean-nba-slang/)
+
+</details>
+
+<details>
+<summary>🏎️ F1</summary>
+
+- 일정: [Jolpica-F1](https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md) ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), 설정한 시간대로 변환하여 표시)
+- 점수 없이 일정만 표시합니다.
+
+</details>
+
+<details>
+<summary>🎮 리그 오브 레전드</summary>
+
+- 일정: [LoL Events](https://www.tompka.io/lol-events/)
+- 팀 소속·로고: [LoL Esports](https://lolesports.com/en-US/gpr/2026/current) (2026-11-10 확인)
+- 점수는 현재 지원하지 않습니다.
+
+</details>
+
+<details>
+<summary>🎯 발로란트</summary>
+
+- 일정: [Valorant Match Schedule](https://valorant-calendar.mizt.ch/)
+- 팀 소속·로고: [VALORANT Esports](https://valorantesports.com/en-US/gpr/2026/current) (2026-11-10 확인)
+- 일부 VCT 플레이인 참가팀의 로고 사본: [VLR.gg](https://www.vlr.gg/). 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.
+- VCT 플레이인 참가 팀은 참가 권역에 연결해 각 권역의 하단에 배치합니다. [Riot의 2026 Path to Champions 안내](https://valorantesports.com/en-US/news/vct-2026)에 따라 Challengers 출신 팀이 공식 VCT에 참가할 수 있지만, 앱은 해당 팀의 하위 리그 전체 일정을 추가하지 않습니다.
+- 점수는 현재 지원하지 않습니다.
+
+</details>
 
 <sub>매치그리드는 경기 일정을 편하게 확인하기 위해 독립적으로 제작한 무료·비상업적 팬 프로젝트입니다. 리그, 구단, 게임 및 데이터 제공사와 별개로 운영됩니다. 명칭, 로고 및 상표에 대한 권리는 각 권리자에게 있으며, 일정 데이터에는 각 출처의 이용 조건이 적용됩니다. 출처나 권리 관련 문의는 <a href="https://github.com/Potato030/MatchGrid/issues">GitHub Issues</a>에 남겨 주세요.</sub>
 
-<sub>LoL·발로란트 팀 소속과 로고: <a href="https://lolesports.com/en-US/gpr/2026/current">LoL Esports</a> · <a href="https://valorantesports.com/en-US/gpr/2026/current">VALORANT Esports</a> (2026-11-10 확인). 팀 정렬은 국내 인지도를 고려한 기본 배치이며, 공식 인기 순위나 실시간 통계가 아닙니다.</sub>
-
-<sub>일부 VCT 플레이인 참가팀의 로고 사본: <a href="https://www.vlr.gg/">VLR.gg</a>. 팀별 원본 주소는 앱에 포함된 출처 안내에 기록했습니다.</sub>
+<sub>팀 정렬은 국내 인지도를 고려한 기본 배치이며, 팀 검색용 별칭은 수동 목록입니다. 둘 다 공식 인기 순위나 통계가 아닙니다.</sub>
 
 <sub>권역 접기 아이콘: <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a> · Regular Rounded, angle-small-down. 앱의 일반 설정 → 앱 정보에도 출처를 표시합니다.</sub>
-
-<sub>팀 검색용 별칭·약어 참고: <a href="https://www.manutd.com/ko/help/club-contacts">맨유 한국어 공식 사이트</a> · <a href="https://kr.mancity.com/news">맨시티 한국어 공식 사이트</a> · <a href="https://fantasy.premierleague.com/fixtures/fdr">프리미어리그 공식 경기 약어</a> · <a href="https://www.nba.com/news/about">NBA 팀·컨퍼런스</a> · <a href="https://www.nba.com/team/1610612744/warriors">NBA 공식 팀 약어</a> · <a href="https://nbazoomin.com/korean-nba-slang/">국내 NBA 약칭 사용례</a>. 별칭은 검색 편의를 위한 수동 목록이며 인기 통계를 뜻하지 않습니다.</sub>
-
-<sub>VCT 플레이인 참가 팀은 참가 권역에 연결해 각 권역의 하단에 배치합니다. <a href="https://valorantesports.com/en-US/news/vct-2026">Riot의 2026 Path to Champions 안내</a>에 따라 Challengers 출신 팀이 공식 VCT에 참가할 수 있지만, 앱은 해당 팀의 하위 리그 전체 일정을 추가하지 않습니다.</sub>
-
-<sub>최종 점수 출처: 축구·NBA <a href="https://www.espn.com/">ESPN</a>. 종료가 확인된 결과만 표시하며, LoL·VAL 점수는 현재 지원하지 않습니다. F1은 일정 표기를 유지합니다.</sub>
