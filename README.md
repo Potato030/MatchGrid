@@ -6,7 +6,7 @@
 
 Android 8.0+ · 한국어 / English
 
-### [매치그리드 1.8.5 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-34.apk)
+### [매치그리드 1.8.6 다운로드](https://potato030.github.io/MatchGrid/MatchGrid-35.apk)
 
 </div>
 
@@ -41,21 +41,23 @@ Android 8.0+ · 한국어 / English
 
 ## 업데이트
 
-### v1.8.5
+### v1.8.6
 
-SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
+SHA-256: `e71c83c55c44cc903d91536af94e711be79ba71670362fae60af4055dd382960`
 
-- 달력 넘김을 더 부드럽게 개선
-- 연속 스와이프로 여러 달을 빠르게 이동
-- 앱 아이콘과 설정 로고 정리
-- 자동 동기화 안정성 보강
-- 설정 화면 설명 문구 간소화
+- 축구·NBA 팀 로고가 바로 표시되도록 개선
+- F1 세션별(연습·퀄리파잉·레이스) 표시 설정
+- 설정 화면을 묶음형 메뉴로 정리하고 팝업을 상세 화면으로 변경
+- 일정 동기화 상태를 색상 점으로 표시
+- 앱 정보 화면에 출처·라이선스 정리
+- 달력에서 동기화 안내 문구 제거
 
 <details>
 <summary>이전 버전</summary>
 
 | 버전 | 변경 내역 |
 | --- | --- |
+| [1.8.5](https://potato030.github.io/MatchGrid/archive/MatchGrid-34.apk) | 달력 넘김 개선, 연속 스와이프, 설정 문구 간소화 |
 | [1.8.4](https://potato030.github.io/MatchGrid/archive/MatchGrid-33.apk) | 내부 코드 정리 (동작 변화 없음) |
 | [1.8.3](https://potato030.github.io/MatchGrid/archive/MatchGrid-32.apk) | 달력 접근성, 영어 단수·복수 표기 개선 |
 | [1.8.2](https://potato030.github.io/MatchGrid/archive/MatchGrid-31.apk) | 저장 데이터 복구, 구형 Android 검색 호환성 개선 |
@@ -98,6 +100,7 @@ SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 <summary>⚽ 프리미어리그</summary>
 
 - 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+- 팀 정보·로고: [ESPN](https://www.espn.com/)
 - 팀 검색용 별칭·약어 참고: [맨유 한국어 공식 사이트](https://www.manutd.com/ko/help/club-contacts) · [맨시티 한국어 공식 사이트](https://kr.mancity.com/news) · [프리미어리그 공식 경기 약어](https://fantasy.premierleague.com/fixtures/fdr)
 
 </details>
@@ -106,6 +109,7 @@ SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 <summary>⚽ UEFA 챔피언스리그</summary>
 
 - 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+- 팀 정보·로고: [ESPN](https://www.espn.com/)
 
 </details>
 
@@ -113,6 +117,7 @@ SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 <summary>🏀 NBA</summary>
 
 - 일정·최종 점수: [ESPN](https://www.espn.com/) (종료가 확인된 결과만 표시)
+- 팀 정보·로고: [ESPN](https://www.espn.com/)
 - 팀·컨퍼런스·약어: [NBA 팀·컨퍼런스](https://www.nba.com/news/about) · [NBA 공식 팀 약어](https://www.nba.com/team/1610612744/warriors)
 - 팀 검색용 별칭 참고: [국내 NBA 약칭 사용례](https://nbazoomin.com/korean-nba-slang/)
 
@@ -149,5 +154,3 @@ SHA-256: `9fa2774195996e8e8a9992dad9063d573b1b8b030c20be1967f6996f14c5f8ac`
 <sub>매치그리드는 경기 일정을 편하게 확인하기 위해 독립적으로 제작한 무료·비상업적 팬 프로젝트입니다. 리그, 구단, 게임 및 데이터 제공사와 별개로 운영됩니다. 명칭, 로고 및 상표에 대한 권리는 각 권리자에게 있으며, 일정 데이터에는 각 출처의 이용 조건이 적용됩니다. 출처나 권리 관련 문의는 <a href="https://github.com/Potato030/MatchGrid/issues">GitHub Issues</a>에 남겨 주세요.</sub>
 
 <sub>팀 정렬은 국내 인지도를 고려한 기본 배치이며, 팀 검색용 별칭은 수동 목록입니다. 둘 다 공식 인기 순위나 통계가 아닙니다.</sub>
-
-<sub>권역 접기 아이콘: <a href="https://www.flaticon.com/uicons">Uicons by Flaticon</a> · Regular Rounded, angle-small-down. 앱의 일반 설정 → 앱 정보에도 출처를 표시합니다.</sub>
